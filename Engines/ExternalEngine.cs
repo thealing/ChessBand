@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 using Microsoft.VisualBasic.Logging;
 using ChessPanel.App;
 using ChessPanel.Core;
@@ -287,9 +288,16 @@ public sealed class ExternalEngine : AbstractEngine
 		{
 			_log.Add($"[G] {command}");
 		}
-		// using "_process.StandardInput.WriteLine()" occasionally freezes the application in RandomAccess.WriteAtOffset()
-		_process.StandardInput.WriteLineAsync(command).Wait();
-		_process.StandardInput.FlushAsync().Wait();
+		if (!_process.StandardInput.WriteLineAsync(command).Wait(500))
+		{
+			_failed = true;
+			return;
+		}
+		if (!_process.StandardInput.FlushAsync().Wait(500))
+		{
+			_failed = true;
+			return;
+		}
 	}
 
 	private bool GetResponse(out string? response)
@@ -411,7 +419,6 @@ public sealed class ExternalEngine : AbstractEngine
 	private readonly ConcurrentQueue<string> _queue;
 	private readonly List<UciOption> _options;
 	private readonly Process _process;
-	private readonly bool _failed;
 	private readonly string[] _bestMoves;
 	private readonly int[] _bestScores;
 	private readonly List<string> _log;
@@ -422,6 +429,7 @@ public sealed class ExternalEngine : AbstractEngine
 	private bool _restarted;
 	private bool _paused;
 	private bool _disposed;
+	private bool _failed;
 	private string? _playedMove;
 	private int _bestDepth;
 
