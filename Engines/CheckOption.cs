@@ -1,5 +1,4 @@
 ﻿namespace Scabine.Engines;
-
 public sealed class CheckOption : UciOption
 {
 	public readonly bool Value;

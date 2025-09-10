@@ -3,6 +3,7 @@
 using System;
 using Scabine.App.Prefs;
 using Scabine.Core;
+using Scabine.Scenes;
 using static Scabine.Core.Game;
 using static Scabine.Core.Move;
 using static Scabine.Core.Pieces;
@@ -197,6 +198,10 @@ internal static class GameManager
 				_game.MoveUndone += OnMoveChanged;
 			}
 		};
+		if (_dirty)
+		{
+			InvalidationManager.ForceInvalidate();
+		}
 	}
 
 	private static void OnMoveChanged(object? sender, Move move)
