@@ -1,14 +1,11 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
 using System;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.Core.Move;
-using static ChessPanel.Core.Game;
-using System.Linq;
-using System.Collections.Generic;
-using System.Xml.Linq;
 using ChessPanel.App.Prefs;
+using ChessPanel.Core;
+using static ChessPanel.Core.Game;
+using static ChessPanel.Core.Move;
+using static ChessPanel.Core.Pieces;
 
 internal static class GameManager
 {

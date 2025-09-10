@@ -1,8 +1,8 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
 using System;
 using System.Collections.Generic;
+using ChessPanel.Core;
 
 internal class UciGame : Game
 {

@@ -1,8 +1,8 @@
 ﻿namespace ChessPanel.App.Menus;
 
+using System.Windows.Forms;
 using ChessPanel.App.Dialogs;
 using ChessPanel.Scenes;
-using System.Windows.Forms;
 
 internal static class EnginesMenu
 {

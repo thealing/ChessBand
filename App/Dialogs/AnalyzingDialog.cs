@@ -1,17 +1,15 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.Engines;
-using ChessPanel.Scenes;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Windows.Forms;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.App.Dialogs.DialogCreator;
-using System.Collections.Generic;
-using ChessPanel.Core;
 using System.Runtime.InteropServices;
-using System.Xml.Linq;
+using System.Windows.Forms;
+using ChessPanel.Core;
+using ChessPanel.Engines;
+using static ChessPanel.App.Dialogs.DialogCreator;
+using static ChessPanel.Core.Pieces;
 
 internal class AnalyzingDialog : BaseDialog
 {

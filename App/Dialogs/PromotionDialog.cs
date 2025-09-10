@@ -1,12 +1,9 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
+using System.Drawing;
+using System.Windows.Forms;
 using ChessPanel.App.Prefs;
 using ChessPanel.Core;
-using ChessPanel.Scenes;
-using System;
-using System.Drawing;
-using System.Security.Policy;
-using System.Windows.Forms;
 using static ChessPanel.Core.Pieces;
 
 internal class PromotionDialog : Form

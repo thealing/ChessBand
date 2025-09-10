@@ -1,9 +1,9 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Scenes;
 using System;
 using System.Diagnostics;
 using System.Windows.Forms;
+using ChessPanel.Scenes;
 
 public class Program
 {

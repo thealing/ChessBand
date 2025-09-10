@@ -3,8 +3,6 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Security.Policy;
-using System.Threading.Channels;
 using System.Windows.Forms;
 using static ChessPanel.App.Dialogs.DialogCreator;
 

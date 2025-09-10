@@ -1,16 +1,15 @@
 ﻿namespace ChessPanel.App;
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text.Json;
 using ChessPanel.App.Menus;
 using ChessPanel.App.Prefs;
 using ChessPanel.Core;
 using ChessPanel.Engines;
 using ChessPanel.Scenes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Text.Json;
 using static ChessPanel.Core.Pieces;
 
 internal static class MatchManager
@@ -533,7 +532,7 @@ internal static class MatchManager
 				}
 			}
 		};
-		
+
 	}
 
 	private static readonly double[] _increments = new double[2];

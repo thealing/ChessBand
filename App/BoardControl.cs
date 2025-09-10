@@ -1,16 +1,15 @@
 ﻿namespace ChessPanel.App;
 
+using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using ChessPanel.App.Dialogs;
 using ChessPanel.App.Prefs;
 using ChessPanel.Core;
 using ChessPanel.Scenes;
-using System;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Windows.Forms;
+using static ChessPanel.Core.Move;
 using static ChessPanel.Core.Pieces;
 using static ChessPanel.Core.Squares;
-using static ChessPanel.Core.Move;
 
 internal class BoardControl : SceneNode
 {

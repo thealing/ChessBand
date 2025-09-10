@@ -1,8 +1,8 @@
 ﻿namespace ChessPanel.App.Prefs;
 
-using ChessPanel.Resources;
 using System;
 using System.Linq;
+using ChessPanel.Resources;
 
 internal static class Themes
 {

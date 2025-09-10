@@ -1,18 +1,11 @@
 ﻿namespace ChessPanel.App;
 
+using System.Drawing;
+using System.Windows.Forms;
 using ChessPanel.App.Dialogs;
 using ChessPanel.App.Menus;
 using ChessPanel.App.Prefs;
-using ChessPanel.Core;
-using ChessPanel.Engines;
 using ChessPanel.Scenes;
-using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Security.Policy;
-using System.Text;
-using System.Windows.Forms;
-using System.Xml.Linq;
 
 internal class MainScene : Scene
 {

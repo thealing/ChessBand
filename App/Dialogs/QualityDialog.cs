@@ -1,10 +1,9 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.App.Prefs;
 using System;
 using System.Drawing;
-using System.Security.Policy;
 using System.Windows.Forms;
+using ChessPanel.App.Prefs;
 using static ChessPanel.App.Dialogs.DialogCreator;
 
 internal class QualityDialog : BaseDialog

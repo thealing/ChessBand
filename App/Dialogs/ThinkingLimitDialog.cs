@@ -1,9 +1,9 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.App;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using ChessPanel.App;
 using static ChessPanel.App.Dialogs.DialogCreator;
 
 internal class ThinkingLimitDialog : BaseDialog

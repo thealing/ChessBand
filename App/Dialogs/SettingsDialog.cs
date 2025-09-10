@@ -1,12 +1,12 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.App.Prefs;
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using ChessPanel.App.Prefs;
 using static ChessPanel.App.Dialogs.DialogCreator;
 
 internal class SettingsDialog : BaseDialog

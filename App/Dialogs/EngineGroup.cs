@@ -4,12 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
-using System.Text.Json;
 using System.Windows.Forms;
-using static ChessPanel.App.Dialogs.DialogCreator;
 using ChessPanel.App.Prefs;
+using static ChessPanel.App.Dialogs.DialogCreator;
 
 internal class EngineGroup : GroupBox
 {

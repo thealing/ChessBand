@@ -1,15 +1,15 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Scenes;
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.Core.Game;
+using ChessPanel.App.Prefs;
+using ChessPanel.Scenes;
 using static ChessPanel.App.GraphicsHelper;
 using static ChessPanel.App.MoveClassifications;
-using ChessPanel.App.Prefs;
+using static ChessPanel.Core.Game;
+using static ChessPanel.Core.Pieces;
 
 internal class MoveListControl : ScrollableContainer
 {

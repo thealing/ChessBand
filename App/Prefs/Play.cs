@@ -1,6 +1,5 @@
 ﻿namespace ChessPanel.App.Prefs;
 
-using ChessPanel.Core;
 using System;
 
 internal static class Play

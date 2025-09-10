@@ -1,11 +1,9 @@
 ﻿namespace ChessPanel.App.Menus;
 
-using ChessPanel.App.Dialogs;
-using ChessPanel.Scenes;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using ChessPanel.App.Dialogs;
+using ChessPanel.Scenes;
 
 internal static class GameMenu
 {

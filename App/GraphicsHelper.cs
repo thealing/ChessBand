@@ -1,9 +1,9 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Scenes;
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using ChessPanel.Scenes;
 
 internal class GraphicsHelper
 {

@@ -1,12 +1,12 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.Json.Serialization;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
+using ChessPanel.Core;
 
 internal class TreeNode
 {

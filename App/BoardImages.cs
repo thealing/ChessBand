@@ -1,16 +1,9 @@
 ﻿namespace ChessPanel.App;
 
 using System.Drawing;
-using System.Drawing.Drawing2D;
-using ChessPanel.Scenes;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.App.GraphicsHelper;
-using static Resources.ResourceManager;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
 using ChessPanel.App.Prefs;
-using System.Security.Policy;
+using static Resources.ResourceManager;
+using static ChessPanel.App.GraphicsHelper;
 
 internal static class BoardImages
 {

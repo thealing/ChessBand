@@ -1,17 +1,15 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.Core.Game;
 using System.IO;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 using ChessPanel.App.Prefs;
-using System.Reflection;
-using System.Xml.Linq;
+using ChessPanel.Core;
+using static ChessPanel.Core.Game;
+using static ChessPanel.Core.Pieces;
 
 internal static class PgnManager
 {

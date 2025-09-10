@@ -1,11 +1,11 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.App.Prefs;
-using ChessPanel.Scenes;
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using ChessPanel.App.Prefs;
+using ChessPanel.Scenes;
 using static ChessPanel.Core.Pieces;
 
 internal class PlayerDisplay : Container

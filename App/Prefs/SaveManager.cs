@@ -1,16 +1,13 @@
 ﻿namespace ChessPanel.App.Prefs;
 
-using ChessPanel.App.Dialogs;
-using ChessPanel.Engines;
-using ChessPanel.Scenes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text.Json;
-using System.Text.Json.Serialization;
+using ChessPanel.Engines;
+using ChessPanel.Scenes;
 
 internal static class SaveManager
 {

@@ -1,19 +1,16 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.App.Prefs;
-using ChessPanel.Core;
-using ChessPanel.Scenes;
 using System;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
+using ChessPanel.App.Prefs;
+using ChessPanel.Core;
 using static ChessPanel.App.Dialogs.DialogCreator;
 using static ChessPanel.Core.Pieces;
-using static ChessPanel.Core.Squares;
 using static ChessPanel.Core.Position;
-using System.Xml.Linq;
-using System.Text;
+using static ChessPanel.Core.Squares;
 
 internal class PositionSetupDialog : BaseDialog
 {
@@ -218,7 +215,7 @@ internal class PositionSetupDialog : BaseDialog
 		{
 			UpdateMouse();
 		}
-		
+
 	}
 
 	private void OnMouseDown(object? sender, MouseEventArgs e)

@@ -1,13 +1,12 @@
 ﻿namespace ChessPanel.App.Menus;
 
-using ChessPanel.App.Dialogs;
-using ChessPanel.App.Prefs;
-using ChessPanel.Scenes;
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using ChessPanel.App.Dialogs;
+using ChessPanel.App.Prefs;
+using ChessPanel.Scenes;
 
 internal static class FileMenu
 {

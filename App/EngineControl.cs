@@ -1,9 +1,5 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
-using ChessPanel.Engines;
-using ChessPanel.App.Prefs;
-using ChessPanel.Scenes;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,10 +7,13 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Xml.Linq;
-using static ChessPanel.Core.Pieces;
-using static ChessPanel.Core.Game;
 using ChessPanel.App.Dialogs;
+using ChessPanel.App.Prefs;
+using ChessPanel.Core;
+using ChessPanel.Engines;
+using ChessPanel.Scenes;
+using static ChessPanel.Core.Game;
+using static ChessPanel.Core.Pieces;
 
 internal class EngineControl : Container
 {

@@ -1,9 +1,7 @@
 ﻿namespace ChessPanel.Scenes;
 
-using ChessPanel.App.Menus;
 using System;
 using System.Drawing;
-using System.Drawing.Printing;
 using System.Windows.Forms;
 
 internal static class MenuCreator

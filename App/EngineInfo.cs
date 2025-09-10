@@ -1,8 +1,8 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Engines;
 using System;
 using System.Collections.Generic;
+using ChessPanel.Engines;
 
 internal class EngineInfo : EngineParams
 {

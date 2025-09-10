@@ -1,17 +1,14 @@
 ﻿namespace ChessPanel.App.Dialogs;
 
-using ChessPanel.App;
-using ChessPanel.Engines;
-using ChessPanel.Scenes;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using ChessPanel.App;
+using ChessPanel.Engines;
 using static ChessPanel.App.Dialogs.DialogCreator;
 
 internal class EnginesDialog : BaseDialog

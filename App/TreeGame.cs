@@ -1,15 +1,13 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.Core;
-using ChessPanel.Engines;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Text.Json.Serialization;
 using System.Text.Json;
-using static ChessPanel.Core.Pieces;
 using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
+using ChessPanel.Core;
+using static ChessPanel.Core.Pieces;
 
 internal class TreeGame : UciGame
 {

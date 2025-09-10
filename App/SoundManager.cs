@@ -1,10 +1,10 @@
 ﻿namespace ChessPanel.App;
 
-using ChessPanel.App.Prefs;
 using System.Collections.Concurrent;
 using System.Media;
 using System.Threading;
 using System.Threading.Tasks;
+using ChessPanel.App.Prefs;
 
 internal static class SoundManager
 {
