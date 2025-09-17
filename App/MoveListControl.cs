@@ -21,7 +21,7 @@ internal class MoveListControl : ScrollableContainer
 		_branchFont = new Font("Gadugi", 12);
 		_gridPen = new Pen(Color.DarkGray);
 		_linePen = new Pen(Color.DimGray);
-		_backBrush = new SolidBrush(Color.Snow);
+		_backBrush = new SolidBrush(Color.FromArgb(250, 250, 250));
 		_backgroundBrush = new SolidBrush(Color.FromArgb(230, 230, 230));
 		_foregroundBrush = new SolidBrush(Color.Black);
 		_currentMoveBrush = new SolidBrush(Color.LightCyan);

@@ -20,6 +20,7 @@ internal class AnalyzisDisplay : Container
 		_hoverPen = Pens.Turquoise;
 		_whiteBrush = new SolidBrush(Color.FromArgb(230, 230, 230));
 		_blackBrush = new SolidBrush(Color.FromArgb(20, 20, 20));
+		_fillBrush = new SolidBrush(Color.FromArgb(250, 250, 250));
 		_nodes = new List<TreeNode>();
 		_evals = new List<int>();
 		_classCounts = new int[ColorCount, MoveClassCount];
@@ -138,7 +139,7 @@ internal class AnalyzisDisplay : Container
 		}
 		else
 		{
-			g.FillRectangle(Brushes.Snow, SelfBounds);
+			g.FillRectangle(_fillBrush, SelfBounds);
 		}
 		int height = Size.Height + 20;
 		void RenderLine(string name, object value1, object value2)
@@ -171,6 +172,7 @@ internal class AnalyzisDisplay : Container
 	private readonly Pen _hoverPen;
 	private readonly Brush _whiteBrush;
 	private readonly Brush _blackBrush;
+	private readonly Brush _fillBrush;
 	private readonly List<TreeNode> _nodes;
 	private readonly List<int> _evals;
 	private readonly int[,] _classCounts;
