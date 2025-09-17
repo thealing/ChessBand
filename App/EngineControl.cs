@@ -24,7 +24,7 @@ internal class EngineControl : Container
 		_borderPen = new Pen(Color.Black);
 		_moveList = new MoveList(this);
 		_font = new Font("Segoe UI", 10);
-		_backgroundBrush = new SolidBrush(Color.Snow);
+		_backgroundBrush = new SolidBrush(Color.FromArgb(250, 250, 250));
 		_foregroundBrush = new SolidBrush(Color.Black);
 		_hoveredBrush = new SolidBrush(Color.LightGray);
 		_columnPositions = new int[Columns.Length];
