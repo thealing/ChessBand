@@ -81,8 +81,6 @@ public class ScrollableContainer : Container
 			}
 			VirtualHeight = Math.Max(VirtualHeight, 1);
 			ScrollHeight = Math.Max(Math.Min(ScrollHeight, VirtualHeight - Size.Height + 1), 0);
-			_scrollRectangle = new Rectangle(Size.Width - ScrollbarWidth, 0, ScrollbarWidth, Size.Height);
-			_scrollbarRectangle = new Rectangle(Size.Width - ScrollbarWidth, (int)Math.Round((double)ScrollHeight * Size.Height / VirtualHeight), ScrollbarWidth, Size.Height * Size.Height / VirtualHeight);
 		}
 		else
 		{
@@ -105,8 +103,10 @@ public class ScrollableContainer : Container
 			_clipChanger = null;
 		}
 		g.TranslateTransform(0, ScrollHeight);
-		if (_hasScrollbar)
+		if (_hasScrollbar && VirtualHeight > 0)
 		{
+			_scrollRectangle = new Rectangle(Size.Width - ScrollbarWidth, 0, ScrollbarWidth, Size.Height);
+			_scrollbarRectangle = new Rectangle(Size.Width - ScrollbarWidth, (int)Math.Round((double)ScrollHeight * Size.Height / VirtualHeight), ScrollbarWidth, Size.Height * Size.Height / VirtualHeight);
 			g.FillRectangle(_backgroundBrush, _scrollRectangle);
 			g.FillRectangle(_scrollbarBrush, _scrollbarRectangle);
 			g.DrawRectangle(_borderPen, _scrollRectangle);
