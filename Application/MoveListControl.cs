@@ -90,9 +90,9 @@ internal class MoveListControl : ScrollableContainer
 			return;
 		}
 		int gap = 20;
-		int width = Math.Max(1, Math.Min(ParentSize.Width, 500) - gap * 2);
+		int width = Math.Max(1, ParentSize.Width - gap * 2);
 		int height = Math.Max(1, ParentSize.Height - gap * 2);
-		int buttonWidth = width / _buttons.Length;
+		int buttonWidth = Math.Min(width / _buttons.Length, 100);
 		int buttonHeight = Math.Min(width / _buttons.Length, 50);
 		Location = new Point((ParentSize.Width - width) / 2, (ParentSize.Height - height) / 2);
 		Size = new Size(width, height - buttonHeight - gap);
