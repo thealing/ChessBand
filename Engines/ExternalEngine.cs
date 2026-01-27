@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using Scabine.Core;
+using Scabine.Scenes;
 using static Scabine.Core.Game;
 using static Scabine.Core.Scores;
 
@@ -47,6 +48,7 @@ public sealed class ExternalEngine : AbstractEngine
 					ready = true;
 				}
 				_queue.Enqueue(e.Data);
+				SceneManager.ScheduleUpdate();
 				lock (_log)
 				{
 					_log.Add($"[E] {e.Data}");
