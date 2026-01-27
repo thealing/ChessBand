@@ -170,7 +170,11 @@ public static class SceneManager
 
 	private static void UpdateFpsDisplay()
 	{
-		_showFps ^= InputManager.IsKeyPressed(Keys.B);
+		if (InputManager.IsKeyPressed(Keys.B))
+		{
+			_showFps ^= true;
+			InvalidationManager.ForceInvalidate();
+		}
 	}
 
 	private static void RenderScene(Graphics g)
