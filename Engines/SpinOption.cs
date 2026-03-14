@@ -1,4 +1,4 @@
-﻿namespace Scabine.Engines;
+﻿namespace ChessBand.Engines;
 
 public sealed class SpinOption : UciOption
 {

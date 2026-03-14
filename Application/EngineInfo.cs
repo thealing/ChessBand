@@ -1,8 +1,8 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
-using Scabine.Engines;
+using ChessBand.Engines;
 
 internal class EngineInfo : EngineParams
 {

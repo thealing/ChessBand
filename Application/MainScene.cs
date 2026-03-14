@@ -1,11 +1,11 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application.Dialogs;
-using Scabine.Application.Menus;
-using Scabine.Application.Settings;
-using Scabine.Scenes;
+using ChessBand.Application.Dialogs;
+using ChessBand.Application.Menus;
+using ChessBand.Application.Settings;
+using ChessBand.Scenes;
 
 internal class MainScene : Scene
 {

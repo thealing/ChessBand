@@ -1,14 +1,14 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
-using Scabine.Core;
-using Scabine.Scenes;
-using static Scabine.Application.MoveClassifications;
-using static Scabine.Core.Pieces;
+using ChessBand.Core;
+using ChessBand.Scenes;
+using static ChessBand.Application.MoveClassifications;
+using static ChessBand.Core.Pieces;
 
 internal class AnalyzisDisplay : Container
 {

@@ -1,9 +1,9 @@
-﻿namespace Scabine.Scenes;
+﻿namespace ChessBand.Scenes;
 
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Scabine.Application;
+using ChessBand.Application;
 
 public class SceneToolStripRenderer : ToolStripProfessionalRenderer
 {

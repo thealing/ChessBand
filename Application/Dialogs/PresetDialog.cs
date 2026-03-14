@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application;
-using Scabine.Engines;
+using ChessBand.Application;
+using ChessBand.Engines;
 
 internal class PresetDialog : BaseDialog
 {

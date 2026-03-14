@@ -1,4 +1,4 @@
-﻿namespace Scabine.Engines;
+﻿namespace ChessBand.Engines;
 
 public abstract class AbstractEngine : IEngine
 {

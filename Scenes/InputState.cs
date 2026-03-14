@@ -1,4 +1,4 @@
-﻿namespace Scabine.Scenes;
+﻿namespace ChessBand.Scenes;
 
 public struct InputState
 {

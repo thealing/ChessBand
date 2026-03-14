@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
+using ChessBand.Application.Settings;
 
 internal static class FileChooser
 {

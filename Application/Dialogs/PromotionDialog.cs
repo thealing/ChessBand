@@ -1,10 +1,10 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using static ChessBand.Core.Pieces;
 
 internal class PromotionDialog : Form
 {

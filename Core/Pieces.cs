@@ -1,4 +1,4 @@
-﻿namespace Scabine.Core;
+﻿namespace ChessBand.Core;
 
 public static class Pieces
 {

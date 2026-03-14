@@ -1,6 +1,6 @@
-﻿namespace Scabine.Application.Settings;
+﻿namespace ChessBand.Application.Settings;
 
-using Scabine.Scenes;
+using ChessBand.Scenes;
 
 internal static class Engines
 {

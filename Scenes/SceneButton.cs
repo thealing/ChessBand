@@ -1,10 +1,10 @@
-﻿namespace Scabine.Scenes;
+﻿namespace ChessBand.Scenes;
 
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
-using Scabine.Application;
+using ChessBand.Application;
 
 public class SceneButton : Container
 {

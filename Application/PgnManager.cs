@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
@@ -6,11 +6,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using Scabine.Scenes;
-using static Scabine.Core.Game;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using ChessBand.Scenes;
+using static ChessBand.Core.Game;
+using static ChessBand.Core.Pieces;
 
 internal static class PgnManager
 {
@@ -264,7 +264,7 @@ internal static class PgnManager
 		if (_dirty)
 		{
 			string localFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-			string backupFolder = localFolder + Path.DirectorySeparatorChar + "Scabine";
+			string backupFolder = localFolder + Path.DirectorySeparatorChar + "ChessBand";
 			Directory.CreateDirectory(backupFolder);
 			string MakePath(int number)
 			{

@@ -1,7 +1,7 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
-using Scabine.Application.Settings;
-using Scabine.Scenes;
+using ChessBand.Application.Settings;
+using ChessBand.Scenes;
 
 internal class PersistentSplitContainer : SplitContainer
 {

@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System.Media;
 using static Resources.ResourceManager;

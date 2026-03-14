@@ -1,10 +1,10 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using static Scabine.Application.Dialogs.DialogCreator;
+using ChessBand.Application.Settings;
+using static ChessBand.Application.Dialogs.DialogCreator;
 
 internal class QualityDialog : BaseDialog
 {

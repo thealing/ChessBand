@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
@@ -7,13 +7,13 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Scabine.Application.Dialogs;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using Scabine.Engines;
-using Scabine.Scenes;
-using static Scabine.Core.Game;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Dialogs;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using ChessBand.Engines;
+using ChessBand.Scenes;
+using static ChessBand.Core.Game;
+using static ChessBand.Core.Pieces;
 
 internal class EngineControl : Container
 {

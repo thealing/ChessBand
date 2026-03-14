@@ -1,15 +1,15 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using Scabine.Scenes;
-using static Scabine.Application.GraphicsHelper;
-using static Scabine.Application.MoveClassifications;
-using static Scabine.Core.Game;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Settings;
+using ChessBand.Scenes;
+using static ChessBand.Application.GraphicsHelper;
+using static ChessBand.Application.MoveClassifications;
+using static ChessBand.Core.Game;
+using static ChessBand.Core.Pieces;
 
 internal class MoveListControl : ScrollableContainer
 {

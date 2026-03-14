@@ -1,16 +1,16 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using static Scabine.Application.Dialogs.DialogCreator;
-using static Scabine.Core.Pieces;
-using static Scabine.Core.Position;
-using static Scabine.Core.Squares;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using static ChessBand.Application.Dialogs.DialogCreator;
+using static ChessBand.Core.Pieces;
+using static ChessBand.Core.Position;
+using static ChessBand.Core.Squares;
 
 internal class PositionSetupDialog : BaseDialog
 {

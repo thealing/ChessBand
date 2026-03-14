@@ -1,10 +1,10 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System.Collections.Concurrent;
 using System.Media;
 using System.Threading;
 using System.Threading.Tasks;
-using Scabine.Application.Settings;
+using ChessBand.Application.Settings;
 
 internal static class SoundManager
 {

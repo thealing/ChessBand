@@ -1,8 +1,8 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Windows.Forms;
-using Scabine.Scenes;
+using ChessBand.Scenes;
 
 public static class ClipboardHelper
 {

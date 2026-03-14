@@ -1,16 +1,16 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
-using Scabine.Application.Menus;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using Scabine.Engines;
-using Scabine.Scenes;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Menus;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using ChessBand.Engines;
+using ChessBand.Scenes;
+using static ChessBand.Core.Pieces;
 
 internal static class MatchManager
 {

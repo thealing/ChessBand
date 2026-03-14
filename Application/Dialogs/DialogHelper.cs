@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using Scabine.Scenes;
+using ChessBand.Scenes;
 
 internal static class DialogHelper
 {

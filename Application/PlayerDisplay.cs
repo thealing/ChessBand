@@ -1,12 +1,12 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using Scabine.Scenes;
-using static Scabine.Core.Pieces;
+using ChessBand.Application.Settings;
+using ChessBand.Scenes;
+using static ChessBand.Core.Pieces;
 
 internal class PlayerDisplay : Container
 {

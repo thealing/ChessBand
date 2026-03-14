@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application.Settings;
+﻿namespace ChessBand.Application.Settings;
 
 using System.Drawing;
 

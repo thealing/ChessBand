@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application.Settings;
+﻿namespace ChessBand.Application.Settings;
 
 using System;
 using System.Linq;
-using Scabine.Resources;
-using Scabine.Scenes;
+using ChessBand.Resources;
+using ChessBand.Scenes;
 
 internal static class Themes
 {

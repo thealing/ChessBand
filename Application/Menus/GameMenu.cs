@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application.Menus;
+﻿namespace ChessBand.Application.Menus;
 
 using System.Text;
 using System.Windows.Forms;
-using Scabine.Application.Dialogs;
-using Scabine.Scenes;
+using ChessBand.Application.Dialogs;
+using ChessBand.Scenes;
 
 internal static class GameMenu
 {

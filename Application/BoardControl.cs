@@ -1,15 +1,15 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using Scabine.Application.Dialogs;
-using Scabine.Application.Settings;
-using Scabine.Core;
-using Scabine.Scenes;
-using static Scabine.Core.Move;
-using static Scabine.Core.Pieces;
-using static Scabine.Core.Squares;
+using ChessBand.Application.Dialogs;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using ChessBand.Scenes;
+using static ChessBand.Core.Move;
+using static ChessBand.Core.Pieces;
+using static ChessBand.Core.Squares;
 
 internal class BoardControl : SceneNode
 {

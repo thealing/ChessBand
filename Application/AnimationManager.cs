@@ -1,8 +1,8 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
-using Scabine.Application.Settings;
-using Scabine.Core;
-using Scabine.Scenes;
+using ChessBand.Application.Settings;
+using ChessBand.Core;
+using ChessBand.Scenes;
 
 internal static class AnimationManager
 {

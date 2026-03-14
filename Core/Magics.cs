@@ -1,4 +1,4 @@
-﻿namespace Scabine.Core;
+﻿namespace ChessBand.Core;
 
 using static Bitboards;
 using static Bitmasks;

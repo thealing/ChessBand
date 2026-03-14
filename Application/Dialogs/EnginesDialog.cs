@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using Scabine.Application;
-using Scabine.Engines;
-using static Scabine.Application.Dialogs.DialogCreator;
+using ChessBand.Application;
+using ChessBand.Engines;
+using static ChessBand.Application.Dialogs.DialogCreator;
 
 internal class EnginesDialog : BaseDialog
 {

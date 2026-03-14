@@ -1,7 +1,7 @@
-﻿namespace Scabine.Application.Settings;
+﻿namespace ChessBand.Application.Settings;
 
 using System;
-using Scabine.Scenes;
+using ChessBand.Scenes;
 
 internal static class Play
 {

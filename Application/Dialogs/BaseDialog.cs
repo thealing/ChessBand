@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System.Windows.Forms;
 

@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 internal enum ThinkingMode
 {

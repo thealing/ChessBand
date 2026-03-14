@@ -1,9 +1,9 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System.Drawing;
-using Scabine.Application.Settings;
+using ChessBand.Application.Settings;
 using static Resources.ResourceManager;
-using static Scabine.Application.GraphicsHelper;
+using static ChessBand.Application.GraphicsHelper;
 
 internal static class BoardImages
 {

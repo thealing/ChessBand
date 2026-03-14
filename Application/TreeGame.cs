@@ -1,4 +1,4 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
-using Scabine.Core;
-using Scabine.Scenes;
-using static Scabine.Core.Pieces;
+using ChessBand.Core;
+using ChessBand.Scenes;
+using static ChessBand.Core.Pieces;
 
 internal class TreeGame : UciGame
 {

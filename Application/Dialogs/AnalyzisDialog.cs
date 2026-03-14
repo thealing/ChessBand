@@ -1,13 +1,13 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using Scabine.Application.Settings;
-using Scabine.Engines;
-using static Scabine.Application.Dialogs.DialogCreator;
+using ChessBand.Application.Settings;
+using ChessBand.Engines;
+using static ChessBand.Application.Dialogs.DialogCreator;
 
 internal class AnalyzisDialog : BaseDialog
 {

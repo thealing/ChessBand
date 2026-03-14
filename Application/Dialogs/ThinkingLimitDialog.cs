@@ -1,10 +1,10 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application;
-using static Scabine.Application.Dialogs.DialogCreator;
+using ChessBand.Application;
+using static ChessBand.Application.Dialogs.DialogCreator;
 
 internal class ThinkingLimitDialog : BaseDialog
 {

@@ -1,10 +1,10 @@
-﻿namespace Scabine.Application;
+﻿namespace ChessBand.Application;
 
 using System;
 using System.Drawing;
 using System.Linq;
-using Scabine.Engines;
-using Scabine.Scenes;
+using ChessBand.Engines;
+using ChessBand.Scenes;
 
 internal class EngineContainer : Container
 {

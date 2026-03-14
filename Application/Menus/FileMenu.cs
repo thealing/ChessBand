@@ -1,12 +1,12 @@
-﻿namespace Scabine.Application.Menus;
+﻿namespace ChessBand.Application.Menus;
 
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using Scabine.Application.Dialogs;
-using Scabine.Application.Settings;
-using Scabine.Scenes;
+using ChessBand.Application.Dialogs;
+using ChessBand.Application.Settings;
+using ChessBand.Scenes;
 
 internal static class FileMenu
 {

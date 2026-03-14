@@ -1,12 +1,12 @@
-﻿namespace Scabine.Application.Dialogs;
+﻿namespace ChessBand.Application.Dialogs;
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Scabine.Application;
-using Scabine.Application.Settings;
-using static Scabine.Application.Dialogs.DialogCreator;
-using static Scabine.Core.Pieces;
+using ChessBand.Application;
+using ChessBand.Application.Settings;
+using static ChessBand.Application.Dialogs.DialogCreator;
+using static ChessBand.Core.Pieces;
 
 internal class EngineMatchDialog : BaseDialog
 {
